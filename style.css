@@ -1,0 +1,54 @@
+#contact_form{
+    width: 500px;
+    margin: 50px auto;
+}
+
+input,textarea, select{
+    width:100%;
+    margin-top: 10px;
+}
+
+input, #select{
+    height:30px;
+    background-color: white;
+}
+
+.form-part{
+    margin: 30px 0;
+    clear: both;
+}
+
+textarea{
+    vertical-align: top;
+    height: 200px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 0.9em;
+    border: 0;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color: darkviolet;
+    transition: background-color 0.5s;
+}
+
+.error_message{
+    color: red;
+}
+
+table{
+    width:800px;
+    margin: 100px auto;
+}
+
+tr, td{
+    border: 1px solid black;
+    height:30px;
+    padding: 10px;
+}
